@@ -1,0 +1,336 @@
+* {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+}
+
+.text-desc {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    padding: 20px 0px;
+}
+
+.form-logreg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    background: linear-gradient(blue, aqua);
+    border-radius: 20px;
+}
+
+h2 {
+    padding: 15px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+label {
+    width: auto;
+    margin: 0px 20px;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+}
+
+.username,
+.password,
+.konf-pw {
+    text-align: center;
+}
+
+input {
+    margin: 5px 0px 0px 5px;
+    border-radius: 5px;
+    padding: 5px 100px;
+    border: none;
+    outline: none;
+}
+
+.log-register {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    width: auto;
+    padding: 10px 100px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    transition-duration: .5s;
+}
+
+button:hover {
+    color: white;
+    background: linear-gradient(rgb(24, 24, 252), rgb(82, 88, 255));
+}
+
+.regis {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.register,
+.login {
+    width: auto;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: .5s;
+    color: blue;
+}
+
+.register:hover,
+.login:hover {
+    width: auto;
+    background-color: rgb(21, 20, 20);
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.remember {
+    width: auto;
+    justify-content: center;
+    padding: 10px 30px;
+    display: flex;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.admin-page {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 5px 10px;
+}
+
+.data {
+    padding-bottom: 30px;
+}
+
+th {
+    background: linear-gradient(blue, aqua);
+    color: #fff;
+    border: rgb(163, 161, 161) 1px solid;
+}
+
+td {
+    border: rgb(163, 161, 161) 1px solid;
+}
+
+.search {
+    width: 50%;
+    padding: 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(blue, aqua);
+    border-radius: 10px;
+}
+
+.search-button {
+    cursor: pointer;
+    width: auto;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    transition-duration: 0.4s;
+}
+
+.search-button:hover {
+    background: rgb(83, 80, 80);
+}
+
+.add {
+    background: linear-gradient(blue, aqua);
+    padding: 10px 10px;
+    margin: 0px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.logout {
+    background: linear-gradient(red, yellow);
+    padding: 10px 10px;
+    margin: 0px 10px 0px 0px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.print {
+    background: green;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.print:hover {
+    background-color: rgb(1, 83, 1);
+}
+
+.ubah {
+    background-color: green;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.ubah:hover {
+    background-color: rgb(1, 83, 1);
+}
+
+.hapus {
+    background-color: red;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.hapus:hover {
+    background-color: rgb(181, 0, 0);
+}
+
+.form-add {
+    text-align: center;
+    margin: 20px 500px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(blue, aqua);
+    border-radius: 20px;
+}
+
+.change-data {
+    text-align: center;
+    margin: 20px 500px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(blue, aqua);
+    border-radius: 20px;
+}
+
+body {
+    background: linear-gradient(-50deg, #644fff, #15026c, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: auto;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.paging {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    background: #0a0036;
+    transition-duration: 0.5s;
+}
+
+.paging:hover {
+    color: #0a0036;
+    background: #fff;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: white;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid white;
+    border-top-color: #335fee;
+    border-bottom-color: #335fee;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 13, 255);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #04004c;
+}
